@@ -1,0 +1,94 @@
+# Go build artifacts
+/bin/
+/obj/
+/pkg/
+/vendor/
+/*.exe
+*.test
+*.out
+*.log
+
+# Compiled object files
+*.o
+*.a
+*.so
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# MacOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+__MACOSX/
+
+# Thumbnails
+._*
+
+# Docker specific files
+docker-compose.override.yml
+.dockerignore
+
+# Docker container and volume data
+**/docker-data/
+**/pgdata/
+**/volumes/
+logs/
+
+# PostgreSQL specific
+*.sql~
+pg_dump.sql
+postgresql.conf
+pg_hba.conf
+pg_ident.conf
+postgresql.auto.conf
+*.pid
+
+# Environment files
+.env
+.env.*
+*.env
+
+# Logs and runtime files
+*.log
+*.pid
+*.socket
+*.sock
+nohup.out
+
+# Coverage files
+*.cover
+*.coverprofile
+coverage.out
+
+# Test binaries
+*.test
+
+# Build and output artifacts
+build/
+dist/
+out/
+release/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Generated files
+*.gen.*
+gen/
+
+# Ignore editor swap files
+*.swp
+
+# Specific Go module files
+go.sum
+
